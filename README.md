@@ -10,7 +10,7 @@ Instale o [mongdb](https://www.mongodb.com/download-center/community) para usar 
 git clone https://github.com/RennanD/noticias.git
 ```
 
-- Dentro da pasta do projeto, abra o projeto e rode os seguintes comandos:
+- Dentro da pasta do projeto, abra o terminal e rode os seguintes comandos:
 
 ```bash
 
