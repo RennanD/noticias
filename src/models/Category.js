@@ -1,12 +1,8 @@
 const { Schema, model } = require("mongoose");
 
-const NewsSchema = new Schema(
+const CategorySchema = new Schema(
   {
     name: {
-      type: String,
-      required: true
-    },
-    url: {
       type: String,
       required: true
     },
@@ -16,8 +12,8 @@ const NewsSchema = new Schema(
     }
   },
   {
-    timestamps
+    timestamps: true
   }
 );
 
-module.exports = model("News", NewsSchema);
+module.exports = model("Category", CategorySchema);

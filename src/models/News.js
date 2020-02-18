@@ -28,8 +28,8 @@ const NewsSchema = new Schema(
     }
   },
   {
-    timestamps
+    timestamps: true
   }
 );
 
-module.exports = model("News", NewsSchema);
+module.exports = model("NewsModel", NewsSchema);
